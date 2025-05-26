@@ -1,5 +1,11 @@
 function shortcut(s1, s2) {
   // your code here
+  if (!str1 || !str2) {
+    return "";
+  }
+  return str1[0] + str2[0];
+}
+
 	console.log(shortcut("Amnesty", "International")); // "AI"
 console.log(shortcut("Hello", "world"));           // "Hw"
 console.log(shortcut("", "International"));        // ""
