@@ -1,5 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
+	console.log(shortcut("Amnesty", "International")); // "AI"
+console.log(shortcut("Hello", "world"));           // "Hw"
+console.log(shortcut("", "International"));        // ""
+console.log(shortcut("Amnesty", ""));              // ""
+
 }
 
 // Do not change the code below.
